@@ -41,6 +41,15 @@ header {
   list-style: none;
 }
 
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger img{
+  width: 28px;
+}
+
 .nav-links a {
   text-decoration: none;
   color: #e2e8f0;
@@ -180,4 +189,15 @@ footer {
   .nav-links {
     display: none;
   }
+
+  .hamburger{
+    display: block;
+  }
+}
+
+@media (max-width:768px){
+    .hero{
+        background-image: none;
+        background-color: #0f172a ;
+    }
 }
